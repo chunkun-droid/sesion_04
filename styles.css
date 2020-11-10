@@ -1,0 +1,55 @@
+.container{
+display: flex;
+
+
+/*flex-wrap: nowrap;*/
+
+/*justify-content: flex-start;
+align-items: flex-end;*/
+
+/*atajo flex-flow: <flex-direction> <flex-wrap>*/
+
+/*flex-flow: row wrap;/*
+
+/*atajo*/
+
+justify-content: space-between;
+
+width: 400px;
+height: 400px;
+background-color: blueviolet;
+
+}
+
+.item{
+background-color: red;
+width: 40px;
+height: 50px;
+
+}
+
+.container-reto {
+    width: 100%;
+    max-width: 1200px;
+    height: 430px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-reto .card{
+        width: 330px;
+        height: 430px;
+        border-radius: 8px;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+        overflow: hidden;
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+    }
+    
+    .container-reto .card img{
+        width: 330px;
+        height: 220px;
+    }
