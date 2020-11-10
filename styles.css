@@ -1,4 +1,6 @@
+/*
 .features{
+    margin-bottom: 70px;
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
@@ -6,4 +8,9 @@
 article{
     background-color: aquamarine;
     margin: 10px;
+    width: 40%;
+    height: 70px;
 }
+
+*/
+
