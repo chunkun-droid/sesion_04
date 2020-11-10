@@ -14,3 +14,43 @@ article{
 
 */
 
+.item_1{
+    grid-area: header;
+}
+.item_2{
+    grid-area: menu;
+}
+.item_3{
+    grid-area: main;    
+}
+.item_4{
+    grid-area: right;    
+}
+.item_5{
+    grid-area: footer;    
+}
+
+.grid-container{
+    display: grid;
+    grid-template-areas: 'header header header header'
+                        'main main right menu'
+                        'footer footer footer footer'            
+    
+            
+        
+        ;
+
+    gap: 10px;
+    background-color: rgb(96, 175, 185);
+    padding: 10px;
+}
+
+.grid-container > div{
+
+    background-color: rgba(26, 31, 32, 0.8);
+    text-align: center;
+    color: azure;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 400px;
+}
